@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import mapsIntegration from '../mapsIntegration.js';  // assuming mapsIntegration exports necessary functions
-import governmentAPI from './governmentAPI.js';      // assuming governmentAPI exports a minting approval function
+import governmentAPI from '../governmentAPI.js';      // assuming governmentAPI exports a minting approval function
 
 const MintNFT = ({ onNFTMinted }) => {
     const [address, setAddress] = useState('');
