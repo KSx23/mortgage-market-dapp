@@ -1,13 +1,34 @@
 {
+    "name": "mortgage-market-dapp",
+    "version": "1.0.0",
+    "description": "A decentralized mortgage market application built on the Stacks blockchain.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/your-username/mortgage-market-dapp.git"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/your-username/mortgage-market-dapp/issues"
+    },
+    "homepage": "https://github.com/your-username/mortgage-market-dapp#readme",
     "dependencies": {
-        "@stacks/network": "^6.8.1",
-        "@stacks/transactions": "^6.9.0",
-        "clarinet": "^0.12.6",
-        "express": "^4.18.2",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+      "express": "^4.17.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "stacks": "^2.0.0",  
+      "stacks-wallet": "^2.0.0",  
+      "google-maps-react": "^2.1.9",  
+      "axios": "^0.21.1" 
     },
     "devDependencies": {
-        "@types/clarinet": "^0.12.2"
+      "nodemon": "^2.0.7",
+      "react-scripts": "^4.0.3"
     }
-}
+  }
+  
